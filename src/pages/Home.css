@@ -1,0 +1,6 @@
+.header_home {
+    background-image: url('../../public/assets/images/homepage-bg-1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
