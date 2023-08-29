@@ -1,6 +1,72 @@
 .header_home {
+    position: relative;
     background-image: url('../../public/assets/images/homepage-bg-1.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+
+.header_home h2,
+.header_home h3 {
+    font-family: 'Gradual';
+    color: var(--white);
+}
+.header_home h2 {
+    font-size: 60px;
+}
+.header_home h3 {
+    font-size: 45px;
+}
+.header_home-vector {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_home-vector a {
+    margin-bottom: 40px;
+    padding-bottom: 4px;
+    font-family: 'Karla light';
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: 3px;
+    transform: rotate(269deg);
+}
+
+.ourServices_home img {
+    width: 100%;
+}
+
+.transformation_home {
+    position: relative;
+    overflow: hidden;
+    background-image: url('../../public/assets/images/homepage-bg-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.transformation_home h4 {
+    font-family: "Gradual";
+    font-size: 40px;
+    line-height: normal;
+    color: var(--primary-color);
+}
+.transformation_home p {
+    margin-top: 30px;
+    font-family: 'Karla Variable';
+    font-size: 22px;
+    color: var(--secondary-color);
+}
+.transformation_home a {
+    display: inline-block;
+    padding: 18px 25px 18px 0;
+    background-image: url('../../public/assets/images/button-banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: var(--secondary-color);
+    font-family: 'Karla Variable';
+    letter-spacing: 2px;
+    text-decoration: none;
 }

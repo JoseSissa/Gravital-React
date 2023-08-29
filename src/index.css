@@ -7,23 +7,23 @@
 }
 @font-face {
   font-family: "Gradual";
-  src: url('../fonts/Branding-with-Type-Bw-Gradual-Bold.otf') format('opentype');
+  src: url('../public/assets/fonts/Branding-with-Type-Bw-Gradual-Bold.otf') format('opentype');
 }
 @font-face {
   font-family: "Karla light";
-  src: url('../fonts/Karla-Light.ttf') format('truetype');
+  src: url('../public/assets/fonts/Karla-Light.ttf') format('truetype');
 }
 @font-face {
   font-family: "Karla Medium";
-  src: url('../fonts/Karla-Medium.ttf') format('truetype');
+  src: url('../public/assets/fonts/Karla-Medium.ttf') format('truetype');
 }
 @font-face {
   font-family: "Karla Variable";
-  src: url('../fonts/Karla-VariableFont_wght.ttf') format('truetype');
+  src: url('../public/assets/fonts/Karla-VariableFont_wght.ttf') format('truetype');
 }
 @font-face {
   font-family: "Karla Italic";
-  src: url('../fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype');
+  src: url('../public/assets/fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 * {
@@ -34,4 +34,19 @@
 
 .hide {
   display: none;
+}
+
+.text {
+  font-family: 'Karla Variable';
+  font-size: 24px;
+  color: #000;
+  opacity: 0.7;
+}
+
+.h5 {
+  position: relative;
+  margin-bottom: 30px;
+  font-family: "Gradual";
+  font-size: 30px;
+  color: var(--primary-color);
 }
